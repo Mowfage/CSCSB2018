@@ -1,0 +1,95 @@
+:root {
+    --main-color: #EF2424;
+    --secondary-color: #083A6F;
+}
+body {
+    background-color: white;    
+    margin: 0;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    display: flex; 
+    justify-content: center;
+    margin: 40px auto;
+}
+.title {
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0;
+}
+.title h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: var(--secondary-color);
+}
+h4 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+.title h4 span {
+    color: var(--main-color);
+}
+body > h3 {
+
+    color: var(--main-color);
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: normal;
+}
+.subjectscontainer {
+    max-width: 100%;
+}
+.subjectscontainer .subject {
+    width: 100%;
+    background-color: #EEE;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.subjectscontainer .subject .subtitle {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.subjectscontainer .subject a {
+    color: white;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    display: inline-block;
+}
+.subjectscontainer .subject .comment {
+    margin-top: 10px;
+}
+body > span {
+    color: var(--main-color);
+    font-size: 30px;
+    display: block;
+    margin-top: 50px;
+}
+body > p {
+    font-size: 18px;
+    padding: 20px;
+    margin: 0;
+}
+.report {
+    font-size: 18px;
+    margin: 30px;
+}
+.report a {
+    color: var(--main-color);
+}
+.footer {
+    text-align: center;
+    background-color: #EEE;
+    font-size: 15px;
+    padding: 2px;
+}
+.footer img {
+    height: 15px;
+    width: 15px;
+}
