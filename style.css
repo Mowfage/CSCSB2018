@@ -6,8 +6,6 @@ body {
     background-color: white;    
     margin: 0;
     text-align: center;
-    position: relative;
-    min-height: 100vh;
 }
 * {
     box-sizing: border-box;
@@ -93,9 +91,6 @@ body > p {
     background-color: #EEE;
     font-size: 15px;
     padding: 2px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
 }
 .footer img {
