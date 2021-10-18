@@ -6,6 +6,8 @@ body {
     background-color: white;    
     margin: 0;
     text-align: center;
+    position: relative;
+    min-height: 100vh;
 }
 * {
     box-sizing: border-box;
@@ -83,13 +85,40 @@ body > p {
 .report a {
     color: var(--main-color);
 }
+body > p {
+    padding-bottom: 50px;
+}
 .footer {
     text-align: center;
     background-color: #EEE;
     font-size: 15px;
     padding: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .footer img {
     height: 15px;
     width: 15px;
 }
+/* Start SubPage Style */
+.leccontainer {
+    margin-bottom: 50px;
+}
+.lectitle {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.lec {
+    background-color: #EEE;
+    margin-bottom: 10px;
+}
+.lec a {
+    color: white;
+    background-color: var(--main-color);
+    padding: 10px 40px;
+    display: inline-block;
+    margin: 10px;
+}
+/* End SubPage Style */
