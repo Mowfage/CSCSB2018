@@ -92,6 +92,8 @@ body > p {
     font-size: 15px;
     padding: 2px;
     width: 100%;
+    margin-top: 200px;
+    visibility: hidden;
 }
 .footer img {
     height: 15px;
